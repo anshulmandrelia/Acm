@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutAcm">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/fragmenttitlesbackground"
+        android:gravity="center_horizontal"
+        android:text="About Acm"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="149dp"
+        android:layout_height="109dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/acmlogonew" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="What is Acm?"
+                android:textColor="#3A72EA"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="ACM, the Association for Computing Machinery founded in New York on September 15, 1947, is the world’s largest educational and scientific society connecting and convening the researchers,educators and professionals to apportion resources, inspire discourse and scrutinize and address the field’s challenges.
+
+Founded at the dawn of the computer age, ACM’s reach extends to every part of the globe, with more than half of its 100,000 members residing outside the U.S."
+                android:textColor="#000000"
+                android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#3A72EA"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="Opted the best Technical chapter"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="At the Quasar 2K17 and 2K18, the annual techno-sports fest of the college, our chapter ACM-BKBIET was given the best chapter award. "/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="30dp"
+             android:textColor="#3A72EA"
+             android:textStyle="bold"
+             android:gravity="center_horizontal"
+             android:layout_gravity="center_horizontal"
+             android:text="ORDINADO"/>
+         <TextView
+             android:layout_gravity="center_horizontal"
+             android:layout_width="match_parent"
+             android:layout_height="100dp"
+             android:textColor="#000000"
+             android:textSize="20dp"
+             android:text="ACM-BKBIET Tech Fest ORDINADO, It is an all time exclusive tech event where informal and formal events are held and students love to participate in it. ">
+         </TextView>
+        </LinearLayout>
+    </ScrollView>
+ </LinearLayout>
+
+</FrameLayout>

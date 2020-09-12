@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    tools:context=".fragments.JoinUs">
+
+    <TextView
+        android:layout_width="238dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fragmenttitlesbackground"
+        android:gravity="center"
+        android:text="Join Us"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/stdname"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangleloginedit"
+            android:hint="  Enter Your name"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/stdmail"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangleloginedit"
+            android:hint="  Enter Your email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/stdphone"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangleloginedit"
+            android:hint="  Enter Your Phone"
+            android:inputType="phone"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/stdyear"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangleloginedit"
+            android:hint="  Enter Your Year"
+            android:inputType="phone"
+            android:textColorHint="#000000" />
+        <EditText
+            android:id="@+id/stdbranch"
+            android:layout_width="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangleloginedit"
+            android:hint="  Enter Your Branch"
+            android:inputType="text"
+            android:textColorHint="#000000" />
+        <Button
+            android:id="@+id/clicktosubmit"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Join And Pay"
+           android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:background="@drawable/fragmenttitlesbackground" />
+    </LinearLayout>
+</FrameLayout>

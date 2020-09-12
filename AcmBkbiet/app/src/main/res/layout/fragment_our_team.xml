@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OurTeam">
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fragmenttitlesbackground"
+        android:gravity="center"
+        android:text="Our Team"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:weightSum="8"
+      android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:layout_weight="1"
+          android:orientation="horizontal"
+          android:weightSum="2">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/harshit" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Harshit Kalal"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Chairperson"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="4th year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="225dp"
+                  android:gravity="center_horizontal"
+                  android:orientation="horizontal"
+                  android:weightSum="3">
+
+                  <ImageView
+                      android:id="@+id/harshitlinked"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:layout_weight="1"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/dhruv" />
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:gravity="center_horizontal"
+                  android:text="Dhruv Dayal Gupta"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Vice-Chairperson"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="4th year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="225dp"
+                  android:gravity="center_horizontal"
+                  android:orientation="horizontal"
+                  android:weightSum="3">
+
+                  <ImageView
+                      android:id="@+id/dhruvlinkedin"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:layout_weight="1"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/dev" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Dev Bansal"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Treasurer"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="3rd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/devlinkedin"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/kamayani"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Kamayani Goswami"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="General Secreatary"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="3rd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/kamayanilinked"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/deepika" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Deepika Sharma"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="joint secretary"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/deepikalinked"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/chinmay"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Chinmay Sahal"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Technical Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="3rd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedchinmay"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/anshul" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Anshul Mandrelia"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Technical Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedanshul"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/ayushi"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Ayushi Dhokwal"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="PR Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/ayushilinked"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/kunal" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Kunal Sharma"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="PR Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"/>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/kunallinked"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/parikshit"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Parikshit singh Bhati"
+                  android:textStyle="bold"
+                  android:gravity="center_horizontal"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Program Co-Ordinator"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedparikshit"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/ankit" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Ankit Sharma"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Designer Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedankit"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/mayank"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Mayank Gaur"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Editorial Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedmayank"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/mansi" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Mansi Gupta"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Editorial Head"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedmansi"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/krishan"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Krishan Kumar"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Proof Reader"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/linkedkrishna"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:layout_weight="1"
+          android:layout_gravity="center_horizontal"
+          android:orientation="horizontal">
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/eventsmainborder">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/ashutosh" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="160dp"
+                  android:text="Ashutosh Rungta"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="180dp"
+                  android:text="Ordinado Fest Co-ordinator"
+                  android:textColor="#000000"
+                  android:gravity="center_horizontal"
+                  android:textSize="12dp"/>
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="195dp"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:layout_gravity="center_horizontal"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/ashutoshlinked"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+
+          <androidx.cardview.widget.CardView
+              android:layout_width="180dp"
+              android:layout_height="270dp"
+              android:layout_margin="10dp"
+              android:layout_weight="1"
+              android:background="@drawable/rectangleloginedit">
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:layout_width="120dp"
+                  android:layout_height="130dp"
+                  android:layout_marginTop="10dp"
+                  android:src="@drawable/manal"
+                  android:layout_gravity="center_horizontal"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Manal Swami"
+                  android:textStyle="bold"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="160dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="Ordinado Fest Co-ordinator"
+                  android:textColor="#000000"
+                  android:textSize="12dp"
+                  android:layout_marginTop="180dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:text="2nd year"
+                  android:textColor="#000000"
+                  android:textSize="15dp"
+                  android:layout_marginTop="195dp"/>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:weightSum="3"
+                  android:layout_gravity="center_horizontal"
+                  android:gravity="center_horizontal"
+                  android:layout_marginTop="225dp">
+                  <ImageView
+                      android:id="@+id/manallinkedin"
+                      android:layout_weight="1"
+                      android:layout_width="61dp"
+                      android:layout_height="46dp"
+                      android:src="@drawable/linkedin" />
+              </LinearLayout>
+          </androidx.cardview.widget.CardView>
+      </LinearLayout>
+  </LinearLayout>
+    </ScrollView>
+</FrameLayout>

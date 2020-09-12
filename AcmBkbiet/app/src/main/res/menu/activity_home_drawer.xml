@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_glimpses"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Glimpses" />
+        <item
+            android:id="@+id/nav_joinus"
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="JoinUs" />
+        <item
+        android:id="@+id/nav_team"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="Our Team" />
+        <item
+            android:id="@+id/nav_devloper"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Devlopers" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="About acm" />
+        <item
+        android:id="@+id/nav_contactus"
+        android:icon="@drawable/ic_settings_phone_black_24dp"
+        android:title="Contact us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="Log Out" />
+
+
+    </group>
+
+</menu>
