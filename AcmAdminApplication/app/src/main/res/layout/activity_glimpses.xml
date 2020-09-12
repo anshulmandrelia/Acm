@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Glimpses">
+
+
+    <ImageView
+        android:id="@+id/select_glimpses"
+        android:layout_width="295dp"
+        android:layout_height="174dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        android:src="@drawable/select_product_image"
+        android:scaleType="centerCrop" />
+
+    <EditText
+        android:id="@+id/Glimpses_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_glimpses"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Event name......."
+        android:inputType="textMultiLine"
+        android:padding="20dp"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/Glimpses_Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Glimpses_name"
+        android:layout_marginTop="20dp"
+        android:text="Add Event"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:padding="17dp"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+</RelativeLayout>
